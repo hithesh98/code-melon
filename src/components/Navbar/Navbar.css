@@ -1,0 +1,15 @@
+.navbar-items {
+    background-color: #12181b;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+
+}
+.navbar-title {
+    color: #fa8284;
+    justify-self: start;
+    cursor: pointer;
+    margin-left: 20px;
+}
