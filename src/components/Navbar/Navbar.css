@@ -1,5 +1,5 @@
 .navbar-items {
-    background-color: #12181b;
+    background-color: #2a2e35;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -12,4 +12,47 @@
     justify-self: start;
     cursor: pointer;
     margin-left: 20px;
+    background-color: #2a2e35;
+    font-size: 18px;
+}
+.navbar-logo {
+    height: 80px;
+    background-color: #2a2e35;
+
+}
+.navbar-logo img {
+    object-fit: contain;
+    height: 100%;
+    background-color: #2a2e35;
+    padding: 10px 0px;
+}
+.nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+    background-color: #2a2e35;
+}
+.nav-links {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: #2a2e35;
+}
+.nav-links:hover {
+    background-color: #76dc87;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+    color: #2a2e35;
+}
+.nav-links-sign {
+    display: none;
+}
+.fa-bars {
+    color: aliceblue;
+    display: none;
 }

@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import {MenuItems} from './MenuItems.js';
 import './Navbar.css'
+import {Button} from '../Button/Button'
+import logo from './watermelon.png'
 
 class Navbar extends Component {
     state = {closebar:false}
@@ -12,14 +14,14 @@ class Navbar extends Component {
     render(){
         return(
             <nav className='navbar-items'>
-                <h1 className='navbar-title'>Byo</h1>
                 <div className='navbar-logo'>
-
+                    <img src={logo} alt='logo'/>
                 </div>
+                <h1 className='navbar-title'>Code Melon</h1>
                 <div className='menu-icon' onClick={this.handleMenuClick}>
                     <i class= {this.state.closebar ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
-                <ul>
+                <ul className={this.state.closebar ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return(
                             <li key={index}>
@@ -30,6 +32,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
+                <Button> Sign up</Button>
             </nav>
         );
     }
