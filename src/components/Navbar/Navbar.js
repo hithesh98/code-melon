@@ -15,7 +15,9 @@ class Navbar extends Component {
         return(
             <nav className='navbar-items'>
                 <div className='navbar-logo'>
-                    <img src={logo} alt='logo'/>
+                    <a href='#'>
+                        <img src={logo} alt='logo'/>
+                    </a>
                 </div>
                 <h1 className='navbar-title'>Code Melon</h1>
                 <div className='menu-icon' onClick={this.handleMenuClick}>
