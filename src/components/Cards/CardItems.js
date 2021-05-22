@@ -1,26 +1,26 @@
 export const CardItems = [
     {
         date: "May 25th 2020",
-        header: "Card tricks are fun"
+        header: "Build a server"
     },
     {
         date: "June 17th 2021",
-        header: "Hi moma"
+        header: "Build your own password manager"
     },
     {
         date: "June 17th 2021",
-        header: "Hi moma"
+        header: "Building your first API"
     },
     {
         date: "March 21th 2010",
-        header: "Down with plutocracy"
+        header: "A chatbot built with python"
     },
     {
         date: "June 17th 2021",
-        header: "Hi moma"
+        header: "Create your own cryptocurrency"
     },
     {
         date: "June 17th 2021",
-        header: "Hi moma"
+        header: "Making an NFT  "
     }
 ]
