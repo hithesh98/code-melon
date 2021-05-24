@@ -3,9 +3,12 @@
     flex-direction: column;
     gap: 3rem;
     align-items: center;
-    margin-top: 2rem;
+    margin: 2rem;
     list-style-type: none;
 
+}
+.guide-heading {
+    margin: 1rem;
 }
 .guide-number {
     height: 26px;
@@ -21,17 +24,21 @@
 .guide-list-wrap {
     background-color: #1c1f22;
     display: flex;
-    padding: 2.5rem;
+    padding: 1rem 2.5rem 2.5rem 2.5rem;
     height: 200px;
-    width: 500px;
+    max-width: 500px;
     min-width: 300px;
     position: relative;
     border-radius: 16px;
     justify-content: center;
     box-shadow: 0.5rem 0 1rem #000;
+    flex-direction: column;
 }
 
 .guide-list-wrap:hover {
     box-shadow: 0.5rem 0 1rem #fa8284;
     transition: all 0.5s ease-in;
+}
+.guide-title {
+    margin-bottom: 1rem;
 }

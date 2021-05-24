@@ -39,3 +39,7 @@ body {
     transform: rotate(360deg);
   }
 }
+.projects-heading{
+  text-align: left;
+  padding-left: 100px;
+}

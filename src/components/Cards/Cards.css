@@ -3,6 +3,7 @@ body {
     margin: 0;
     color: aliceblue;
 }
+
 .card-list {
     display: flex;
     padding: 3rem;
@@ -19,6 +20,7 @@ body {
 .card-list::-webkit-scrollbar-track {
     background-color: #12181b;
 }
+
 .card {
     display: flex;
     position: relative;
@@ -49,7 +51,7 @@ body {
     justify-content: center;
 }
 
-.card:first-child .card-techstack {
+.card:first-child .card-techstack,.card:first-child .card-description {
     display: none;
 }
 
@@ -64,8 +66,25 @@ body {
 .card-image{
     height: 100px;
     margin: 1rem;
+    padding: 1rem;
 }
 .card-image img {
     max-width: 100%;
     max-height: 100%;
+}
+.card-description {
+    height: 65px;
+}
+/* The Techstack */
+.card-techstack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px;
+}
+.card-tech {
+    list-style: none;
+    padding: 5px;
+    border: 2px solid #12181b;
+    border-radius: 15px;
+    color: #6d767a;
 }

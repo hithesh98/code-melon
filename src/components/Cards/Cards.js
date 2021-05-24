@@ -12,9 +12,12 @@ class Cards extends Component {
                             <header className="card-header">
                                 <h2>{item.title}</h2>
                             </header>
-                                <div className='card-image'>
-                                    <img src={item.imageurl}></img>
-                                </div>
+                                <a href={item.url}>
+                                    <div className='card-image'>
+                                        <img src={item.imageurl}></img>
+                                    </div>
+                                </a>
+                                <p className='card-description'>{item.description}</p>
                                 <ul className='card-techstack'>
                                     {item.techstack.map((tech) => {
                                         return (
