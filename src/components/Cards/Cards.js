@@ -24,6 +24,7 @@ class Cards extends Component {
                                             <li className='card-tech'>{tech}</li>
                                         )
                                     })}
+                                    {item.video ? <li className='card-tech video'>Video</li>: null} 
                                 </ul>
                         </article>
                     )

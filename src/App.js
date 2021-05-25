@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Guide />
-      <h1 className='projects-heading'> Projects 🧱 </h1>
+      <h1 className='projects-heading'> Projects 💡 </h1>
       <Cards datalist={Beginner} />
       <Cards datalist={Intermediate}/>
       <Cards datalist={Advanced}/>
