@@ -24,7 +24,7 @@ export const Advanced = [
         title: "Neural Networks Library", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/neural.png",
         techstack:  ["JavaScript"],
-        description: "Build your own neural networks library.",
+        description: "Build your own neural networks library",
         url: "https://www.youtube.com/playlist?list=PLRqwX-V7Uu6aCibgK1PTWWu9by6XFdCfh",
         video: true
     },

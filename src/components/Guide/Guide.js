@@ -11,7 +11,7 @@ class Guide extends Component {
                         <div className='guide-list-wrap'>
                             <div className='guide-number'>1</div>
                             <h2 className='guide-title'>Pick A Project</h2>
-                            <p className='guide-description'> Dive straight into building software projects by selecting one from below. There are guided projects at different levels of difficulty so there is something for everyone.</p>
+                            <p className='guide-description'> Dive straight into building software projects by selecting one from below. There are guided projects at different levels of difficulty, so there is something for everyone.</p>
                         </div>
                     </li>
                     <li>

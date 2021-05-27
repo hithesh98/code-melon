@@ -11,21 +11,21 @@ export const Intermediate = [
         title: "Blockchain", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/blockchain.png",
         techstack:  ["JavaScript"],
-        description: "Build your own blockchain.",
+        description: "Build your own blockchain",
         url: "https://medium.com/@spenserhuang/learn-build-a-javascript-blockchain-part-1-ca61c285821e"
     },
     {
         title: "Command Line Tool", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/git.png",
         techstack:  ["Go"],
-        description: "A command line tool to visualise git contributions.",
+        description: "A command line tool to visualise git contributions",
         url: "https://flaviocopes.com/go-git-contributions/"
     },
     {
         title: "8-Ball Pool", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/pool.png",
         techstack:  ["Javascript", "HTML"],
-        description: "An 8-ball pool game.",
+        description: "An 8-ball pool game",
         url: "https://www.youtube.com/playlist?list=PL8pAAuuU6yuMqwJS9_122arsrwTLI3gSr",
         video: true
     },
@@ -33,14 +33,14 @@ export const Intermediate = [
         title: "Twitter Web Scraping", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/twitter.png",
         techstack:  ["Python"],
-        description: "Web scraping tool that mines Twitter data.",
+        description: "Web scraping tool that mines Twitter data",
         url: "https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/"
     },
     {
         title: "Google Docs Clone", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/docs.png",
         techstack:  ["React", "MangoDB", "Socket.io"],
-        description: "Build your own version of Google docs.",
+        description: "Build your own version of Google docs",
         url: "https://www.youtube.com/watch?v=iRaelG7v0OU",
         video: true
     },
@@ -56,7 +56,7 @@ export const Intermediate = [
         title: "Bittorrent Client", 
         imageurl: "https://hithesh98.github.io/image-api/buildyourown/64/torrent.png",
         techstack:  ["Node.js"],
-        description: "Build a bittorent client from scratch.",
+        description: "Build a bittorent client from scratch",
         url: "https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-own-bittorrent-client.html",
     }
 ]
