@@ -1,6 +1,6 @@
 export const MenuItems = [
     {
-        title: 'Sign up',
+        title: 'Join Pro 🔒',
         url: '#',
         cName: 'nav-links-sign'
     }

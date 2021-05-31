@@ -60,7 +60,7 @@
     display: none;
 }
 
-@media screen and (max-width: 1168px) {
+@media screen and (max-width: 600px) {
     .navbar-items {
         position: relative;
         min-width: 280px;
