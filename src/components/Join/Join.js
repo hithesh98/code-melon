@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 
 class Join extends Component {
-    state = {isJoin:false}
 
     render(){
         return(

@@ -12,6 +12,7 @@ class Navbar extends Component {
     }
 
     render(){
+        const {onRouteChange} = this.props
         return(
             <nav className='navbar-items'>
                 <div className='navbar-logo'>
@@ -34,7 +35,7 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button> Join Pro 🔒</Button>
+                <Button onClick={() => onRouteChange(true)} > Join Pro 🔒</Button>
             </nav>
         );
     }
