@@ -12,7 +12,7 @@ class Navbar extends Component {
     }
 
     render(){
-        const {onRouteChange} = this.props
+        const {onRouteChange, isJoin} = this.props
         return(
             <nav className='navbar-items'>
                 <div className='navbar-logo'>
@@ -35,7 +35,10 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button onClick={() => onRouteChange(true)} > Join Pro 🔒</Button>
+                {(!isJoin)
+                ? <Button onClick={() => onRouteChange('join')} > Join Pro 🔒</Button>
+                : <Button onClick={() => onRouteChange('home')} >   Back     </Button>
+                }
             </nav>
         );
     }

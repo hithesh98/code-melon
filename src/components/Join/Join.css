@@ -1,0 +1,36 @@
+.join-section {
+    display: flex;
+    justify-content: center;
+    margin: 2.5rem 1.5rem auto 1.5rem;
+}
+.join-card {
+    background-color: #1c1f22;
+    display: flex;
+    padding: 2rem 2.5rem 2rem 2.5rem;
+    min-height: 400px;
+    width: 100%;
+    max-width: 500px;
+    min-width: 300px;
+    position: relative;
+    border-radius: 16px;
+    justify-content: center;
+    box-shadow: 0.5rem 0 1rem #000;
+    flex-direction: column;   
+}
+.join-card img {
+    margin-top: 1rem;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
+.join-lists {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.join-lists li {
+    text-align: center;
+    align-self: center;
+    padding: 4px;
+}

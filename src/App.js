@@ -12,13 +12,15 @@ class App extends Component {
   state = {isJoin:false}
 
   onRouteChange = (routevalue) => {
-    this.setState({isJoin:routevalue})
+    (routevalue == 'join') 
+    ? this.setState({isJoin:true})
+    : this.setState({isJoin: false})
   }
 
   render(){
     return (
       <div className="App">
-        <Navbar  onRouteChange={this.onRouteChange}/>
+        <Navbar isJoin={this.state.isJoin} onRouteChange={this.onRouteChange}/>
         {this.state.isJoin 
         ? <Join /> 
         : <div>        
