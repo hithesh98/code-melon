@@ -17,6 +17,11 @@ class Join extends Component {
                         <li> 👨‍🎓 Career tracks</li>
                     </ul>
                 </div>
+                <div className='join-email'>
+                    <h3 className='join-email-title'> Reserve your place to be Pro member</h3>
+                    <input className='join-input' placeholder='Enter a valid email...'></input>
+                    {/* <button>Join</button> */}
+                </div>
             </div>
         )
     }
