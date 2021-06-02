@@ -17,11 +17,11 @@ class Join extends Component {
                         <li> 👨‍🎓 Career tracks</li>
                     </ul>
                 </div>
-                <div className='join-email'>
-                    <h3 className='join-email-title'> Reserve your place to be Pro member</h3>
-                    <input className='join-input' placeholder='Enter a valid email...'></input>
-                    {/* <button>Join</button> */}
-                </div>
+                <form className='join-email' action="https://formsubmit.co/0a3fd9f5e42f10dd169ff98bd1a65e75" method="POST">
+                    <h3 className='join-email-title'> Reserve your place to become a Pro member</h3>
+                    <input className='join-input' placeholder='Enter a valid email...' type="email" name="email"></input>
+                    <button type="submit" className="join-submit">Submit</button>
+                </form>
             </div>
         )
     }
