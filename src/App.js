@@ -23,7 +23,7 @@ class App extends Component {
         <Navbar isJoin={this.state.isJoin} onRouteChange={this.onRouteChange}/>
         {this.state.isJoin 
         ? <Join /> 
-        : <div>        
+        : <div>  
             <Guide />
             <h1 className='projects-heading'> Projects 💡 </h1>
             <Cards datalist={Beginner} />

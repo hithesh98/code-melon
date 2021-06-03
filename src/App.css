@@ -43,3 +43,9 @@ body {
   text-align: left;
   padding-left: 70px;
 }
+
+@media screen and (max-width:600px) {
+ .projects-heading{
+   padding-left: 2.5rem;
+ } 
+}

@@ -28,9 +28,14 @@ class Navbar extends Component {
                     {MenuItems.map((item, index) => {
                         return(
                             <li key={index}>
-                                <a className={item.cName} href= {item.url}>
-                                {item.title}
+                                {(!isJoin)
+                                ? <a className={item.cName} href= {item.url} onClick={() => {onRouteChange('join'); this.handleMenuClick();}}>
+                                {item.title} 
                                 </a>
+                                : <a className={item.cName} href= {item.url} onClick={() => {onRouteChange('home'); this.handleMenuClick();}}>
+                                 Back
+                                </a>
+                            }
                             </li>
                         )
                     })}

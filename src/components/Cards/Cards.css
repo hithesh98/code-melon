@@ -97,3 +97,22 @@ body {
 .card-header {
     height: 64px;
 }
+
+@media screen  and (max-width: 600px) {
+ 
+    .card:not(:first-child){
+        margin-left: 20px;
+    }
+    .card:hover{
+        transform: translateY(0); 
+    }
+    .card:hover~.card{
+        transform: translateX(0);
+    }
+    .card-list {
+        padding: 4rem 1.5rem;
+    }
+    .card{
+        box-shadow: none;
+    }
+}
